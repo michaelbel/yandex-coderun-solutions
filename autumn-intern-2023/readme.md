@@ -1,2 +1,2 @@
-[Осенний день стажёра 2023](https://coderun.yandex.ru/selections/autumn-intern-2023)  
+### [Осенний день стажёра 2023](https://coderun.yandex.ru/selections/autumn-intern-2023)  
 Задания, которые давали участникам при отборе на осенний день стажера.

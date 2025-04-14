@@ -1,2 +1,2 @@
-[Зимний день стажера 2024](https://coderun.yandex.ru/selections/winter-intern-2024)  
+### [Зимний день стажера 2024](https://coderun.yandex.ru/selections/winter-intern-2024)  
 Задания из Яндекс Контеста, которые давали участникам при отборе на зимний день стажера.
