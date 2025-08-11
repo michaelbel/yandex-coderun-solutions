@@ -8,9 +8,9 @@ fun main() {
     val writer = BufferedWriter(OutputStreamWriter(System.out))
 
     val numbers = reader.readLine()
-        .trim()  // Убираем лишние пробелы в начале и конце
+        .trim()
         .split(" ")
-        .filter { it.isNotEmpty() }  // Убираем пустые элементы
+        .filter { it.isNotEmpty() }
         .map { it.toInt() }
 
     var max1 = Int.MIN_VALUE

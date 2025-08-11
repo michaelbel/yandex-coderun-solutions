@@ -9,7 +9,6 @@ fun main(args: Array<String>) {
     val reader = BufferedReader(InputStreamReader(System.`in`))
     val writer = BufferedWriter(OutputStreamWriter(System.out))
 
-    // Чтение количества вершин
     val n = reader.readLine()?.toIntOrNull()
     if (n == null || n <= 0) {
         writer.write("-1")
@@ -19,7 +18,6 @@ fun main(args: Array<String>) {
         return
     }
 
-    // Чтение матрицы смежности
     val adjacencyMatrix = Array(n) {
         val line = reader.readLine()?.trim() ?: ""
         if (line.isEmpty()) {
@@ -32,7 +30,6 @@ fun main(args: Array<String>) {
         line.split(" ").map(String::toInt).toIntArray()
     }
 
-    // Чтение стартовой и конечной вершины
     val input = reader.readLine()?.split(" ") ?: emptyList()
     if (input.size < 2) {
         writer.write("-1")
@@ -43,17 +40,14 @@ fun main(args: Array<String>) {
     }
     val (start, end) = input.map(String::toInt)
 
-    // Инициализация для BFS
     val visited = BooleanArray(n) { false }
     val distances = IntArray(n) { -1 }
     val queue: Queue<Int> = LinkedList()
 
-    // Стартовая вершина
     queue.add(start - 1)
     visited[start - 1] = true
     distances[start - 1] = 0
 
-    // BFS
     while (queue.isNotEmpty()) {
         val current = queue.poll()
         for (neighbor in 0 until n) {
@@ -65,7 +59,6 @@ fun main(args: Array<String>) {
         }
     }
 
-    // Вывод результата
     writer.write("${distances[end - 1]}")
     writer.newLine()
 

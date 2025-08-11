@@ -27,13 +27,8 @@ fun main(args: Array<String>) {
         }
     }
 
-    // Запуск DFS из вершины 1
     dfs(1)
-
-    // Сортировка результата
     val result = visited.sorted()
-
-    // Вывод количества вершин в компоненте и их самих
     writer.write("${result.size}\n")
     writer.write(result.joinToString(" "))
     writer.newLine()
