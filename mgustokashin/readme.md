@@ -1,2 +1,15 @@
 ### [Впечатляющие тренировки](https://coderun.yandex.ru/selections/mgustokashin)  
 Эта подборка состоит из сложных задач с Тренировок по алгоритмам Яндекса. Они были самыми обсуждаемыми в чате Тренировок и сильнее всего впечатлили участников.
+
+| №  | Задача                                                                                                  | Сложность | Статус                                                                                                |
+|----|---------------------------------------------------------------------------------------------------------|-----------|-------------------------------------------------------------------------------------------------------|
+| 1  | [Скорая помощь](https://coderun.yandex.ru/selections/mgustokashin/problems/ambulance)                   | Средняя   | <img src="../assets/ic_success.svg" width="16"/> [Решена](../mgustokashin/ambulance.kt)               |
+| 2  | [Пробежки по Манхэттену](https://coderun.yandex.ru/selections/mgustokashin/problems/run-manhattan)      | Средняя   | <img src="../assets/ic_success.svg" width="16"/> [Решена](../mgustokashin/run-manhattan.kt)           |
+| 3  | [Расшифровка письменности Майя](https://coderun.yandex.ru/selections/mgustokashin/problems/maya-script) | Средняя   | <img src="../assets/ic_success.svg" width="16"/> [Решена](../mgustokashin/maya-script.kt)             |
+| 4  | [Гоблины и шаманы](https://coderun.yandex.ru/selections/mgustokashin/problems/goblins-and-chess)        | Средняя   | <img src="../assets/ic_success.svg" width="16"/> [Решена](../mgustokashin/goblins-and-chess.kt)       |
+| 5  | [Автобусы](https://coderun.yandex.ru/selections/mgustokashin/problems/buses)                            | Средняя   | <img src="../assets/ic_success.svg" width="16"/> [Решена](../mgustokashin/buses.kt)                   |
+| 6  | [Амбициозная улитка](https://coderun.yandex.ru/selections/mgustokashin/problems/ambitious-snail)        | Легкая    | <img src="../assets/ic_success.svg" width="16"/> [Решена](../mgustokashin/ambitious-snail.kt)         |
+| 7  | [Построить квадрат](https://coderun.yandex.ru/selections/mgustokashin/problems/build-a-square)          | Средняя   | <img src="../assets/ic_failure.svg" width="16"/> [Не решена](../mgustokashin/build-a-square.kt)       |
+| 8  | [Царь Леонид на тракторе](https://coderun.yandex.ru/selections/mgustokashin/problems/tsar-leonidas)     | Средняя   | <img src="../assets/ic_success.svg" width="16"/> [Решена](../mgustokashin/tsar-leonidas.kt)           |
+| 9  | [Разрушить казарму](https://coderun.yandex.ru/selections/mgustokashin/problems/destroy-the-barracks)    | Средняя   | <img src="../assets/ic_failure.svg" width="16"/> [Не решена](../mgustokashin/destroy-the-barracks.kt) |
+| 10 | [Упаковка эчпочмаков](https://coderun.yandex.ru/selections/mgustokashin/problems/echpochmak-packing)    | Сложная   | <img src="../assets/ic_failure.svg" width="16"/> [Не решена](../mgustokashin/echpochmak-packing.kt)   |

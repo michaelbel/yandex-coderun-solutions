@@ -1,11 +1,11 @@
-### [Бессонные ночи](https://coderun.yandex.ru/selections/eserajim)
+### [Бессонные ночи](https://coderun.yandex.ru/selections/eserajim)  
 Курс алгоритмов, наверное, был одним из самых запоминающихся за годы обучения в ШАДе. Некоторые задачи из этой подборки буквально лишили меня сна. Уверена, что вы, друзья, справитесь сильно быстрее!
 
-| №  | Задача | Сложность | Статус |
-|----|--------|-----------|--------|
-| 1  |        |           |        |
-| 2  |        |           |        |
-| 3  |        |           |        |
-| 4  |        |           |        |
-| 5  |        |           |        |
-| 6  |        |           |        |
+| № | Задача                                                                                                     | Сложность | Статус                                                                                           |
+|---|------------------------------------------------------------------------------------------------------------|-----------|--------------------------------------------------------------------------------------------------|
+| 1 | [Нужно больше конфет!](https://coderun.yandex.ru/selections/eserajim/problems/sweets-wanted)               | Лёгкая    | <img src="../assets/ic_failure.svg" width="16"/> [Не решена](../eserajim/sweets-wanted.kt)       |
+| 2 | [Классы подобия треугольников](https://coderun.yandex.ru/selections/eserajim/problems/triangle-similarity) | Средняя   | <img src="../assets/ic_failure.svg" width="16"/> [Не решена](../eserajim/triangle-similarity.kt) |
+| 3 | [Шпионы!](https://coderun.yandex.ru/selections/eserajim/problems/spies)                                    | Сложная   | <img src="../assets/ic_failure.svg" width="16"/> [Не решена](../eserajim/spies.kt)               |
+| 4 | [Доска с монетами](https://coderun.yandex.ru/selections/eserajim/problems/board-with-coins)                | Средняя   | <img src="../assets/ic_failure.svg" width="16"/> [Не решена](../eserajim/board-with-coins.kt)    |
+| 5 | [Покрытие K отрезками](https://coderun.yandex.ru/selections/eserajim/problems/k-segments)                  | Лёгкая    | <img src="../assets/ic_success.svg" width="16"/> [Решена](../eserajim/k-segments.kt)             |
+| 6 | [Одномерный почтальон](https://coderun.yandex.ru/selections/eserajim/problems/linear-postman)              | Лёгкая    | <img src="../assets/ic_failure.svg" width="16"/> [Не решена](../eserajim/linear-postman.kt)      |
