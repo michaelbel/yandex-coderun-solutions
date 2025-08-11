@@ -8,22 +8,22 @@ fun main() {
     val reader = BufferedReader(InputStreamReader(System.`in`))
     val writer = BufferedWriter(OutputStreamWriter(System.out))
 
-    val n = reader.readLine().toInt() // Читаем количество чисел в массиве
-    val numbers = reader.readLine().split(" ").map(String::toInt) // Читаем массив чисел
-    val x = reader.readLine().toInt() // Читаем целевое число
+    val n = reader.readLine().toInt()
+    val numbers = reader.readLine().split(" ").map(String::toInt)
+    val x = reader.readLine().toInt()
 
-    var closest = numbers[0] // Инициализируем ближайшее число первым элементом массива
-    var minDiff = abs(numbers[0] - x) // Разница между первым числом и целевым
+    var closest = numbers[0]
+    var minDiff = abs(numbers[0] - x)
 
     for (num in numbers) {
-        val diff = abs(num - x) // Вычисляем разницу с целевым числом
-        if (diff < minDiff) { // Если разница меньше текущей минимальной
-            closest = num // Обновляем ближайшее число
-            minDiff = diff // Обновляем минимальную разницу
+        val diff = abs(num - x)
+        if (diff < minDiff) {
+            closest = num
+            minDiff = diff
         }
     }
 
-    writer.write(closest.toString()) // Выводим ближайшее число
+    writer.write(closest.toString())
 
     reader.close()
     writer.flush()

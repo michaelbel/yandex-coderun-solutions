@@ -3,38 +3,32 @@ import java.io.BufferedWriter
 import java.io.InputStreamReader
 import java.io.OutputStreamWriter
 
-// Класс узла бинарного дерева поиска (BST)
 class Node(val value: Int) {
     var left: Node? = null
     var right: Node? = null
 }
 
-// Класс бинарного дерева поиска (BST)
 class BST {
-    var root: Node? = null // Корневой узел дерева
+    var root: Node? = null
 
-    // Метод вставки нового элемента в дерево
     fun insert(value: Int) {
         root = insertRec(root, value)
     }
 
-    // Рекурсивный метод вставки значения в правильное место в дереве
     private fun insertRec(node: Node?, value: Int): Node {
-        if (node == null) return Node(value) // Создаем новый узел, если достигли пустого места
+        if (node == null) return Node(value)
         when {
-            value < node.value -> node.left = insertRec(node.left, value) // Вставляем в левое поддерево
-            value > node.value -> node.right = insertRec(node.right, value) // Вставляем в правое поддерево
+            value < node.value -> node.left = insertRec(node.left, value)
+            value > node.value -> node.right = insertRec(node.right, value)
         }
         return node
     }
 
-    // Метод вычисления высоты дерева
     fun height(): Int = heightRec(root)
 
-    // Рекурсивный метод вычисления высоты дерева
     private fun heightRec(node: Node?): Int {
-        if (node == null) return 0 // Высота пустого узла равна 0
-        return 1 + maxOf(heightRec(node.left), heightRec(node.right)) // Максимальная высота поддеревьев + 1
+        if (node == null) return 0
+        return 1 + maxOf(heightRec(node.left), heightRec(node.right))
     }
 }
 
@@ -42,16 +36,15 @@ fun main() {
     val reader = BufferedReader(InputStreamReader(System.`in`))
     val writer = BufferedWriter(OutputStreamWriter(System.out))
 
-    val bst = BST() // Создаем экземпляр бинарного дерева поиска
-    val parts = reader.readLine().split(" ").map { it.toInt() } // Читаем входные данные
+    val bst = BST()
+    val parts = reader.readLine().split(" ").map { it.toInt() }
 
-    // Вставляем числа в дерево, прерываемся при встрече 0
     for (num in parts) {
         if (num == 0) break
         bst.insert(num)
     }
 
-    writer.write("${bst.height()}\n") // Выводим высоту дерева
+    writer.write("${bst.height()}\n")
 
     reader.close()
     writer.flush()
