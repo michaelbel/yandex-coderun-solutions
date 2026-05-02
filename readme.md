@@ -12,6 +12,7 @@
 | [БеспоШАДные алгоритмы](https://coderun.yandex.ru/selections/atolstikov) — популярные алгоритмы на практике от A. Tolstikov | [atolstikov/](atolstikov/readme.md) |
 | [Бессонные ночи](https://coderun.yandex.ru/selections/eserajim) — задачи из курса алгоритмов ШАДа от E. Serajim | [eserajim/](eserajim/readme.md) |
 | [Впечатляющие тренировки](https://coderun.yandex.ru/selections/mgustokashin) — сложные задачи с Тренировок по алгоритмам Яндекса от M. Gustokashin | [mgustokashin/](mgustokashin/readme.md) |
+| [Асинхронная классика](https://coderun.yandex.ru/selections/relizarov) — задачи от R. Elizarov | [relizarov/](relizarov/readme.md) |
 
 ## Треки и сезоны
 
@@ -20,12 +21,16 @@
 | [Quickstart](https://coderun.yandex.ru/selections/quickstart) | [quickstart/](quickstart/) |
 | [Code Life Balance](https://coderun.yandex.ru/selections/code-life-balance) | [code-life-balance/](code-life-balance/) |
 | [HR Tech Interview](https://coderun.yandex.ru/selections/hr-tech-interview) | [hr-tech-interview/](hr-tech-interview/) |
+| [Backend Interview](https://coderun.yandex.ru/selections/backend-interview) | [backend-interview/](backend-interview/readme.md) |
+| [Frontend Interview 2026](https://coderun.yandex.ru/selections/frontend-interview-2026) | [frontend-interview-2026/](frontend-interview-2026/readme.md) |
 | [Бэкенд](https://coderun.yandex.ru/selections/backend) | [backend/](backend/) |
 | [Mobile Dev](https://coderun.yandex.ru/selections/mobile-dev) | [mobile-dev/](mobile-dev/) |
 | [New Year Adventures](https://coderun.yandex.ru/selections/new-year-adventures) | [new-year-adventures/](new-year-adventures/) |
 | [Бэкенд — Сезон 2 (Лето 2024)](https://coderun.yandex.ru/selections/2024-summer-backend) | [2024-summer-backend/](2024-summer-backend/readme.md) |
 | [Mobile Dev — Сезон 2 (Лето 2024)](https://coderun.yandex.ru/selections/2024-summer-mobile-dev) | [2024-summer-mobile-dev/](2024-summer-mobile-dev/) |
 | [CodeRun Boost Challenge (Лето 2025)](https://coderun.yandex.ru/selections/2025-summer-common) | [2025-summer-common/](2025-summer-common/readme.md) |
+| [CodeRun Boost Challenge (Зима 2025)](https://coderun.yandex.ru/selections/2025-winter-common) | [2025-winter-common/](2025-winter-common/readme.md) |
+| [Тренировки по алгоритмам 7.0](https://coderun.yandex.ru/selections/algorithm-training-september-2025) | [algorithm-training-september-2025/](algorithm-training-september-2025/readme.md) |
 
 ## Стажировки
 
